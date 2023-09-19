@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #map-container {
+    position: relative;
+  }
+  
+  #map-background {
+    width: 100%;
+    height: auto;
+  }
+  
+  #arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease;
+  }
+  
